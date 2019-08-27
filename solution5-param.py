@@ -1,3 +1,4 @@
+import sys
 
 def printListOfInts(x, y):
     i = x
@@ -13,6 +14,5 @@ def printListOfInts(x, y):
     for i in range(start, stop, step):
         print(i)
 
-# print("Prints a list of integers given two integers as input")
-# printListOfInts(int(input("Enter first number: ")), int(input("Enter last number:  ")))
-
+print(sys.argv)
+printListOfInts(int(sys.argv[1]), int(sys.argv[2]))
