@@ -4,4 +4,9 @@ import sys
 
 lines = sys.stdin.readlines()
 
-print (lines)
+lineNumber = 0
+for line in lines:
+    lineNumber += 1
+    if(line.lower().find('csc') != -1):
+        print(lineNumber)
+        quit()
