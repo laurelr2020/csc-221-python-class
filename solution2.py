@@ -4,9 +4,11 @@
 x = int(input("Enter a number: "))
 y = int(input("Enter another number: "))
 
-if x >= y :
+if x > y :
     for index in reversed(range(y, x+1)):
         print(index)
-else:
+elif x < y:
     for index in range(x, y+1):
         print(index)
+else:
+        print("That's the same number!!")
