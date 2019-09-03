@@ -1,5 +1,11 @@
 # CSC 221 Intermediate Programming: Python
 
+## Program Assignments
+  #### Assignment 1: 
+  - Write a Python program that will take one command-line argument and count the number of times that argument occurs on the standard input, then print the count to standard output.
+
+
+## In Class Examples / Practice
 #### practice.py: 
 - This program was written on the first day of class and prints out hello 100 times. 
 
