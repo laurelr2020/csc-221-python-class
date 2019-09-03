@@ -17,3 +17,6 @@
 
 #### find-csc.py:
 - This program finds the first occurance of the string "CSC", case-insensitive, in the input stream and prints the line number it occurs on.
+
+#### point.py 
+- This program is an introduction to classes in python.
