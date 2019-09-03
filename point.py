@@ -1,10 +1,3 @@
-
-class TooSimpleProbably: pass
-
-object1 = TooSimpleProbably()
-object2 = TooSimpleProbably()
-object3 = object1
-
-print(object1)
-print(object2)
-print(object3)
+class Point:
+    """Point is a representation of a two dimensional point as in analytic geometry"""
+    
