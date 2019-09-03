@@ -1,6 +1,6 @@
 class Point:
     """Point is a representation of a two dimensional point as in analytic geometry. There are two attributes, x and y."""
-    def __init__:(self, initX, initY:
+    def __init__: (self, initX, initY):
         self.x = initX
         self.y = initY
 
