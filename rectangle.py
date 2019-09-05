@@ -1,8 +1,8 @@
 from point import Point
 class Rectangle:
     '''A Rectangle has an upper-left corner (type: Point), a width and a height'''
-    def __init__(self, x, y, width, height):
-        self.upperLeftCorner = Point(x,y)
+    def __init__(self, upperLeftCorner, width, height):
+        self.upperLeftCorner = upperLeftCorner
         self.width = abs(width)
         self.height = abs(height)
 
