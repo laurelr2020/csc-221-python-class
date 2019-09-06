@@ -20,3 +20,6 @@
 
 #### point.py 
 - This program is an introduction to classes in python.
+
+#### rectangle.py
+- This program worked more with classes and importing other classes.
