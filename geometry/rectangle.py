@@ -1,4 +1,4 @@
-from point import Point
+from geometry.point import Point
 class Rectangle:
     '''A Rectangle has an upper-left corner (type: Point), a width and a height'''
     def __init__(self, upperLeftCorner, width, height):
