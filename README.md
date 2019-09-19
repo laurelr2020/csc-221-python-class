@@ -20,3 +20,6 @@
 
 #### geometry & main.py
 - These programs are an introduction to classes and importing into files. These programs have a Point object and a Rectangle object. The Rectangle object is created with a Point object acting as the upper left hand corner and a width and a height. The rectangle has a method to calculate the area of the rectangle.
+
+#### shape.py
+- This program is an introduction to abstract classes and subclasses. 
