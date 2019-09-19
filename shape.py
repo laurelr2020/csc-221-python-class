@@ -22,6 +22,7 @@ class ShapeList(list):
 
 class Rectangle(Shape):
     def __init__(self, width, height):
+        super().__init__()
         self.width = abs(width)
         self.height = abs(height)
 
