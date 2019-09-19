@@ -1,4 +1,8 @@
 import math
+
+'''Finish the Python module named shape.py by adding definitions for Ellipse and Circle, 
+which should be related to Shape in the same way that Rectangle and Square are. '''
+
 class Shape:
     def __init__(self):
         pass
