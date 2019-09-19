@@ -4,7 +4,7 @@ method and print each result.'''
 
 from shape import Shape, Rectangle, Ellipse, Square, Oval
 
-def main(self):
+def main():
     square = Square(5)
     rectangle = Rectangle(12,5)
     ellipse = Ellipse(4, 10)
@@ -14,4 +14,9 @@ def main(self):
 
     for s in shapeList:
         if isinstance(s, Shape):
-            print("This " + s.getShape() + " has an area of " + s.calculateArea())
+            print("This " + s.getShape() + " has an area of " + str(s.calculateArea()))
+
+
+"""This if statement will only run with the main method when this script is given on the python command line"""
+if __name__ == "__main__":
+    main()
