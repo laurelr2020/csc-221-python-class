@@ -1,7 +1,10 @@
 import abc
+
 class Shape(metaclass=abc.ABCMeta):
+    numberOfShapes = 0
+
     def __init__(self):
-        pass
+        Shape.numberOfShapes += 1
     
     @abc.abstractclassmethod
     def calculateArea(self):
