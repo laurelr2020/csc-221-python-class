@@ -12,6 +12,10 @@ class Shape:
     def calculateArea(self):
         pass
 
+    @abc.abstractclassmethod
+    def getShape(self):
+        pass
+
 class Rectangle(Shape):
     def __init__(self, width, height):
         self.width = abs(width)
@@ -20,9 +24,15 @@ class Rectangle(Shape):
     def  calculateArea(self):
         return self.width * self.height
 
+    def getShape(self):
+        return "Rectangle"
+
 class Square(Rectangle): 
     def __init__(self, sideLength):
         super().__init__(sideLength, sideLength)
+
+    def getShape(self):
+        return "Square"
 
 class Ellipse(Shape):
     def __init__(self, width, height):
@@ -32,6 +42,12 @@ class Ellipse(Shape):
     def calculateArea(self):
         return (math.pi * self.width * self.height)
 
+    def getShape(self):
+        return "Ellipse"
+
 class Oval(Ellipse):
     def __init__(self, radius):
         super().__init__(radius, radius)
+
+    def getShape(self):
+        return "Oval"
