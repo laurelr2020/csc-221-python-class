@@ -8,6 +8,10 @@ class Shape(metaclass=abc.ABCMeta):
         pass
 
 class ShapeList(list):
+    def append(self, newMember):
+        if isinstance(newMember, Shape):
+            super().append(newMember)
+
     def printAreas(self):
         for s in self:
             if isinstance(s, Shape):
