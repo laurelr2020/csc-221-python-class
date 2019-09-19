@@ -18,8 +18,8 @@
 #### find-csc.py:
 - This program finds the first occurance of the string "CSC", case-insensitive, in the input stream and prints the line number it occurs on.
 
-#### point.py 
-- This program is an introduction to classes in python.
+#### geometry & main.py
+- These programs are an introduction to classes and importing into files. These programs have a Point object and a Rectangle object. The Rectangle object is created with a Point object acting as the upper left hand corner and a width and a height. The rectangle has a method to calculate the area of the rectangle.
 
-#### rectangle.py
-- This program worked more with classes and importing other classes.
+#### shape.py
+- This program is an introduction to abstract classes and subclasses. 
