@@ -2,9 +2,10 @@ import abc
 class Shape(metaclass=abc.ABCMeta):
     def __init__(self):
         pass
-
+    
+    @abc.abstractclassmethod
     def calculateArea(self):
-        return 0.0
+        pass
 
 class Rectangle(Shape):
     def __init__(self, width, height):
