@@ -7,6 +7,12 @@ class Shape(metaclass=abc.ABCMeta):
     def calculateArea(self):
         pass
 
+class ShapeList(list):
+    def printAreas(self):
+        for s in self:
+            if isinstance(s, Shape):
+                print(s.calculateArea())
+
 class Rectangle(Shape):
     def __init__(self, width, height):
         self.width = abs(width)
