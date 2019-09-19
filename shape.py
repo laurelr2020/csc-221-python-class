@@ -1,5 +1,5 @@
-import math
-class Shape:
+import abc
+class Shape(metaclass=abc.ABCMeta):
     def __init__(self):
         pass
 
