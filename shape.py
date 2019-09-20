@@ -26,7 +26,7 @@ class Rectangle(Shape):
         self.width = abs(width)
         self.height = abs(height)
 
-    def  calculateArea(self):
+    def calculateArea(self):
         return self.width * self.height
 
 class Square(Rectangle): 
