@@ -4,6 +4,8 @@
   #### Assignment 1: 
   - Write a Python program that will take one command-line argument and count the number of times that argument occurs on the standard input, then print the count to standard output.
 
+  #### Assignment 2: 
+  - Finish the Python module named shape.py by adding definitions for Ellipse and Circle, which should be related to Shape in the same way that Rectangle and Square are. Also write a main method in another module named main.py that instantiates several Shape objects, putting them in a list, then using a for loop to polymorphically call each object's calculateArea method and print each result.
 
 ## In Class Examples / Practice
 #### practice.py: 
