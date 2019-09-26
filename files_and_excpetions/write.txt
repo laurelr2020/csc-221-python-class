@@ -1,0 +1,4 @@
+I'm writing to a file
+I hope its working
+Hey, I think that worked
+Now I am appending to the file
