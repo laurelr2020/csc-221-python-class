@@ -35,12 +35,12 @@ class Square(Rectangle):
         return "Square"
 
 class Ellipse(Shape):
-    def __init__(self, width, height):
-        self.width = abs(width)
-        self.height = abs(height)
+    def __init__(self, horizontalRadius, verticalRadius):
+        self.horizontalRadius = abs(horizontalRadius)
+        self.verticalRadius = abs(verticalRadius)
 
     def calculateArea(self):
-        return (math.pi * self.width * self.height)
+        return (math.pi * self.horizontalRadius * self.verticalRadius)
 
     def getShape(self):
         return "Ellipse"
