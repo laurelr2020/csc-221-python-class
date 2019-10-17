@@ -9,6 +9,7 @@ class Color:
         self._name = name
 
     def _get_name(self):
+        print("called getter")
         return self._name
 
     name = property(_get_name, _set_name)
