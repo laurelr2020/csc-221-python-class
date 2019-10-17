@@ -23,6 +23,9 @@ class Point:
     def distance(self, p2):
         return math.sqrt((self.x-p2.x)**2 + (self.y-p2.y)**2)
 
+    def __str__(self):
+        return "(" + str(self.x) + ", " + str(self.y) + ")"
+
 class Polygon:
     def __init__(self):
         self.vertices = []
