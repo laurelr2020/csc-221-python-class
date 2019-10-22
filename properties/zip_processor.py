@@ -26,6 +26,8 @@ class ZipProcessor:
                 file.write(filename, filename.name)
         shutil.rmtree(self.temp_directory)
 
+    def delete_files(self, filename):
+        del filename
 
 class ZipReplace(ZipProcessor):
     def __init__(self, filename, search_string, replace_string):
@@ -55,6 +57,11 @@ class ScaleZip(ZipProcessor):
 
 #Class Exercise
 #Create a subclass that removes files with a given suffix
+class RemoveZip(ZipProcessor):
+    def remove_zip(self):
+        """Remove zip files"""
+        for filename in self.temp_directory.iterdir():
+            self.delete_files(filename)
 
 
 if __name__ == "__main__":
